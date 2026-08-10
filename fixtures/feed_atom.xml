@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Nordic Labour Digest</title>
+  <link href="https://nordic-labour.example.com/"/>
+  <updated>2026-07-13T10:00:00Z</updated>
+  <id>urn:uuid:60a76c80-d399-11d9-b93C-0003939e0af6</id>
+
+  <entry>
+    <title>Sverige höjer minimilönen</title>
+    <link href="https://nordic-labour.example.com/sv/minimilon-2026"/>
+    <id>urn:uuid:1225c695-cfb8-4ebb-aaaa-80da344efa6a</id>
+    <published>2026-07-13T08:00:00Z</published>
+    <updated>2026-07-13T08:30:00Z</updated>
+    <summary>Regeringen meddelade en höjning på 3,5 procent från januari.</summary>
+  </entry>
+
+  <entry>
+    <title>Danish unions open negotiations</title>
+    <link rel="alternate" type="text/html" href="https://nordic-labour.example.com/dk/negotiations"/>
+    <link rel="self" type="application/atom+xml" href="https://nordic-labour.example.com/dk/negotiations.atom"/>
+    <id>urn:uuid:2335d795-dfb8-4ebb-bbbb-90da344efa6b</id>
+    <updated>2026-07-12T16:45:00+02:00</updated>
+    <content type="html">&lt;div&gt;Talks began Monday. &lt;a href="https://example.com"&gt;Full coverage&lt;/a&gt;.&lt;/div&gt;</content>
+  </entry>
+</feed>

@@ -1,0 +1,54 @@
+SOURCE: LP-HIRE CORE
+DATE: 2026-07-13
+TITLE: Contract rates climb in Q3
+URL: https://lp-hire.example.com/articles/rates-q3
+DESCRIPTION: Average contract rates rose 4.2% across the sector.
+--------------------------------
+SOURCE: LP-HIRE CORE
+DATE: 2026-07-12
+TITLE: Remote & hybrid roles: the 2026 split
+URL: https://lp-hire.example.com/articles/remote-hybrid?year=2026&view=full
+DESCRIPTION: A detailed look at how firms divide their teams. Second paragraph here.
+--------------------------------
+SOURCE: LP-HIRE CORE
+DATE: 2026-07-11
+TITLE: Short item with no description
+URL: https://lp-hire.example.com/articles/no-desc
+DESCRIPTION: (none)
+--------------------------------
+SOURCE: Nordic Labour Digest
+DATE: 2026-07-13
+TITLE: Sverige höjer minimilönen
+URL: https://nordic-labour.example.com/sv/minimilon-2026
+DESCRIPTION: Regeringen meddelade en höjning på 3,5 procent från januari.
+--------------------------------
+SOURCE: Nordic Labour Digest
+DATE: 2026-07-12
+TITLE: Danish unions open negotiations
+URL: https://nordic-labour.example.com/dk/negotiations
+DESCRIPTION: Talks began Monday. Full coverage .
+--------------------------------
+SOURCE: Messy Feed & Co
+DATE: July 13th, 2026 (approx)
+TITLE: Item with a garbage date
+URL: https://messy.example.com/a
+DESCRIPTION: The pubDate below is not RFC 822 at all.
+--------------------------------
+SOURCE: Messy Feed & Co
+DATE: 2026-07-12
+TITLE: Item with ISO date in an RSS feed
+URL: https://messy.example.com/b
+DESCRIPTION: Some feeds use ISO 8601 even though RSS says RFC 822.
+--------------------------------
+SOURCE: Messy Feed & Co
+DATE: 2026-07-09
+TITLE: (none)
+URL: https://messy.example.com/d
+DESCRIPTION: This item has no title.
+--------------------------------
+SOURCE: Messy Feed & Co
+DATE: 2026-07-08
+TITLE: Double-escaped & ampersand
+URL: https://messy.example.com/e?a=1&b=2
+DESCRIPTION: Note the &amp; in the raw XML.
+--------------------------------

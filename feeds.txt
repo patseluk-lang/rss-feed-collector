@@ -1,0 +1,11 @@
+# -- RSS/Atom feed list --
+# One URL per line.
+# Blank lines and lines starting with '#' are ignored.
+# RSS 2.0 and Atom are both supported; the format is detected automatically.
+
+https://feeds.bbci.co.uk/news/rss.xml
+https://www.theverge.com/rss/index.xml
+https://www.youtube.com/feeds/videos.xml?channel_id=UCkRfArvrzheW2E7b6SVT7vQ
+
+# A local file works too (handy for testing):
+# fixtures/feed_rss20.xml

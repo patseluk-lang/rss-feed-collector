@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Messy Feed &amp;amp; Co</title>
+    <link>https://messy.example.com/</link>
+    <description>A feed that violates the spec in several ways</description>
+
+    <item>
+      <title>Item with a garbage date</title>
+      <link>https://messy.example.com/a</link>
+      <description>The pubDate below is not RFC 822 at all.</description>
+      <pubDate>July 13th, 2026 (approx)</pubDate>
+    </item>
+
+    <item>
+      <title>Item with ISO date in an RSS feed</title>
+      <link>https://messy.example.com/b</link>
+      <description>Some feeds use ISO 8601 even though RSS says RFC 822.</description>
+      <pubDate>2026-07-12T11:00:00Z</pubDate>
+    </item>
+
+    <item>
+      <title>Item with no link at all</title>
+      <description>No link element. What now?</description>
+      <pubDate>Fri, 10 Jul 2026 12:00:00 +0000</pubDate>
+    </item>
+
+    <item>
+      <link>https://messy.example.com/d</link>
+      <description>This item has no title.</description>
+      <pubDate>Thu, 09 Jul 2026 12:00:00 +0000</pubDate>
+    </item>
+
+    <item>
+      <title>Double-escaped &amp;amp; ampersand</title>
+      <link>https://messy.example.com/e?a=1&amp;amp;b=2</link>
+      <description>Note the &amp;amp;amp; in the raw XML.</description>
+      <pubDate>Wed, 08 Jul 2026 12:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>LP-HIRE CORE</title>
+    <link>https://lp-hire.example.com/</link>
+    <description>Hiring and labour market news</description>
+    <language>en-us</language>
+
+    <item>
+      <title>Contract rates climb in Q3</title>
+      <link>https://lp-hire.example.com/articles/rates-q3</link>
+      <description>Average contract rates rose 4.2% across the sector.</description>
+      <pubDate>Mon, 13 Jul 2026 09:00:00 +0000</pubDate>
+      <guid>https://lp-hire.example.com/articles/rates-q3</guid>
+    </item>
+
+    <item>
+      <title>Remote &amp; hybrid roles: the 2026 split</title>
+      <link>https://lp-hire.example.com/articles/remote-hybrid?year=2026&amp;view=full</link>
+      <description>&lt;p&gt;A &lt;strong&gt;detailed&lt;/strong&gt; look at how firms divide their teams.&lt;/p&gt;&lt;p&gt;Second paragraph here.&lt;/p&gt;</description>
+      <pubDate>Sun, 12 Jul 2026 14:30:00 +0000</pubDate>
+      <guid>https://lp-hire.example.com/articles/remote-hybrid</guid>
+    </item>
+
+    <item>
+      <title>Short item with no description</title>
+      <link>https://lp-hire.example.com/articles/no-desc</link>
+      <pubDate>Sat, 11 Jul 2026 08:15:00 +0000</pubDate>
+      <guid>https://lp-hire.example.com/articles/no-desc</guid>
+    </item>
+  </channel>
+</rss>

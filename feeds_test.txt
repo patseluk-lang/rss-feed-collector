@@ -1,0 +1,11 @@
+# -- Test config: exercises the failure paths --
+# Four of these are valid, three are broken in different ways.
+# The run must survive all of them and report each failure with a reason.
+
+fixtures/feed_rss20.xml
+fixtures/feed_atom.xml
+fixtures/feed_messy.xml
+fixtures/feed_empty.xml
+fixtures/feed_invalid.xml
+fixtures/feed_does_not_exist.xml
+https://this-domain-does-not-exist-9f3a.example/feed.xml
