@@ -41,7 +41,7 @@ class Feed:
     skipped_no_link: int = 0          # items dropped for having no URL - not in the output, but counted
 
 
-# -- helpers ----------------------------------------------------------------
+# helpers
 
 def _split_tag(tag: str) -> tuple[str, str]:
     """'{uri}local' -> ('uri', 'local'); 'local' -> ('', 'local')"""
@@ -124,7 +124,7 @@ def parse_date(raw: str | None) -> tuple[datetime | None, str | None]:
     return None, raw
 
 
-# -- RSS 2.0 ----------------------------------------------------------------
+# RSS 2.0
 
 def _parse_rss(root: ET.Element, ns: str) -> Feed:
     channel = _find(root, "channel", ns)
@@ -155,7 +155,7 @@ def _parse_rss(root: ET.Element, ns: str) -> Feed:
     return feed
 
 
-# -- Atom -------------------------------------------------------------------
+# Atom
 
 def _atom_link(entry: ET.Element, ns: str) -> str | None:
     """
@@ -207,7 +207,7 @@ def _parse_atom(root: ET.Element, ns: str) -> Feed:
     return feed
 
 
-# -- entry point ------------------------------------------------------------
+# entry point
 
 def parse_feed(data: bytes | str) -> Feed:
     """
